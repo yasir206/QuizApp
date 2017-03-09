@@ -1,0 +1,24 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasir206/QuizApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasir206/QuizApp/issues"
+  },
+  "homepage": "https://github.com/yasir206/QuizApp#readme",
+  "devDependencies": {
+    "lite": "^3.1.13",
+    "server": "^1.0.0-alpha.21"
+  }
+}
