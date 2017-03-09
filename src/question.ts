@@ -13,17 +13,22 @@ correctAnswer (choice) {
     return choice === this.answer;
 
 }
+}
 
-var question1 = window.alert("What is 50 * 1 ?")
-window.prompt(question1);
-var question2 = window.alert("What is 50 * 2 ?")
-window.prompt(question2;
-var question3 = window.alert("What is 50 * 3 ?")
-window.prompt(question3);
-var question4 = window.alert("What is 50 * 4 ?")
-window.prompt(question4;
-var question5 = window.alert("What is 50 * 0 ?")
-window.prompt(question5);
+var question1 = window.prompt("What is 50 * 1 ?")
+window.alert(question1);
+
+var question2 = window.prompt("What is 50 * 2 ?")
+window.alert(question2);
+
+var question3 = window.prompt("What is 50 * 3 ?")
+window.alert(question3);
+
+var question4 = window.prompt("What is 50 * 3 ?")
+window.alert(question4);
+
+var question5 = window.prompt("What is 50 * 3 ?")
+window.alert(question5);
 
 //     function Question(text, choices, answer) {
 //         this.text = text;
